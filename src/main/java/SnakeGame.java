@@ -53,7 +53,7 @@ public class SnakeGame extends Application{
         scene = new Scene(pane,W_WIDTH,W_HEIGHT);
         primaryStage.setResizable(false);
         primaryStage.sizeToScene();
-        primaryStage.setTitle("Entity");
+        primaryStage.setTitle("Snake");
         primaryStage.setScene(scene);
         startGame();
         primaryStage.show();
